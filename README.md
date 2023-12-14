@@ -1,5 +1,5 @@
 # Praktikum Pengantar Pemrograman
-<div> Nama : Viandra Maryam Azzahram </div>
+<div> Nama : Viandra Maryam Azzahra </div>
 <div> Nim : 231031022 </div>
 <div> Prodi : Sistem Informasi A </div>
 
