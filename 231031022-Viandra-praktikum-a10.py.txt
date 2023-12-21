@@ -1,0 +1,23 @@
+# Fungsi rekursif untuk menghitung faktorial
+def faktorial(nilai):
+    if nilai == 0:
+        return 1
+    else:
+        return nilai * faktorial(nilai - 1)
+
+# Program utama
+for i in range(11):
+    print(f"{i}! = {faktorial(i)}")
+
+# Fungsi rekursif untuk menghitung deret Fibonacci
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+# Program utama
+for i in range(11):
+    print(f"fibonacci({i}) = {fibonacci(i)}")

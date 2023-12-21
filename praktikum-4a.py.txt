@@ -1,0 +1,36 @@
+#LATIHAN NESTED LIST
+data = [('Viandra',2023,'Aktif'),
+        (90,89,93,93),
+        (20,22),
+        ('S1,Reguler','Ganjil')]
+
+matkul = ['Bahasa', 'Agama', 'Pancasila', 'Cinta']
+sks  = [2,2,2,2]
+# Tambahkan matkul dan sks ke dalam data (di akhir)
+matkul.append('Pemrogaraman')
+sks.append(3)
+# Tambahkan 3 matkul dengan sks nya
+matkul_= ['PTI', 'Kalkulus', 'Sains']
+matkul.extend(matkul_)
+sks_= [3,3,3]
+sks.extend(sks_)
+# Mata kuliah 1: Matkul1 dengan jumlah 2 sks
+print('Mata Kuliah 1:',matkul [0],'dengan jumlah sks :',sks [0])
+# Mata kuliah 2: Matkul2 dengan jumlah 3 sks
+print('Mata Kuliah 2:',matkul [1],'dengan jumlah sks :',sks [-1])
+# Mata kuliah 3: Matkul3 dengan jumlah 3 sks
+print('Mata Kuliah 3:',matkul [2],'dengan jumlah sks :',sks [-2])
+# Mata kuliah 4: Matkul4 dengan jumlah 2 sks
+print('Mata Kuliah 4:',matkul [3],'dengan jumlah sks :',sks [1])
+# Mata kuliah 5: Matkul5 dengan jumlah 2 sks
+print('Mata Kuliah 5:',matkul [4],'dengan jumlah sks :',sks [2])
+# Mata kuliah 6: Matkul6 dengan jumlah .. sks
+print('Mata Kuliah 6:',matkul [5],'dengan jumlah sks :',sks [3])
+# Mata kuliah 7: Matkul7 dengan jumlah .. sks
+print('Mata Kuliah 7:',matkul [6],'dengan jumlah sks :',sks [4])
+# Mata kuliah 8: Matkul8 dengan jumlah .. sks
+print('Mata Kuliah 8:',matkul [7],'dengan jumlah sks :',sks [-3])
+
+print(data[0][0])
+print(data[-1][0])
+print(data[2][0:])
